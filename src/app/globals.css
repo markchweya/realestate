@@ -1,0 +1,18 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-warm: #A88C74;
+  --ink: #1d1a17;
+  --paper: #fbf6ef;
+  --paper-2: #f3e7db;
+  --choco: #2a1f1a;
+}
+
+html, body { height: 100%; }
+
+body {
+  color: var(--ink);
+  background: var(--bg-warm);
+}
