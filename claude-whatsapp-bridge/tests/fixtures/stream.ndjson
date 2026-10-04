@@ -1,0 +1,9 @@
+{"type":"active_goal","value":null,"uuid":"u0","session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b"}
+{"type":"system","subtype":"init","cwd":"/home/me/project","session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b","tools":["Bash","Read","Edit"],"model":"claude-sonnet-5-5","permissionMode":"acceptEdits"}
+{"type":"assistant","message":{"id":"msg_1","type":"message","role":"assistant","content":[{"type":"tool_use","id":"toolu_1","name":"Bash","input":{"command":"ls","description":"List files in current directory"}}],"stop_reason":null},"parent_tool_use_id":null,"session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b"}
+{"type":"rate_limit_event","rate_limit_info":{"status":"allowed"}}
+{"type":"user","message":{"role":"user","content":[{"tool_use_id":"toolu_1","type":"tool_result","content":"README.md\nsrc","is_error":false}]},"parent_tool_use_id":null,"session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b"}
+{"type":"assistant","message":{"id":"msg_sub","type":"message","role":"assistant","content":[{"type":"text","text":"subagent chatter"}]},"parent_tool_use_id":"toolu_9","session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b"}
+{"type":"assistant","message":{"id":"msg_2","type":"message","role":"assistant","content":[{"type":"text","text":"The folder has README.md and src.\n\nDone."}],"stop_reason":null},"parent_tool_use_id":null,"session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b"}
+not json at all
+{"type":"result","subtype":"success","is_error":false,"duration_ms":3165,"num_turns":2,"result":"The folder has README.md and src.\n\nDone.","session_id":"0f3e2a1b-4c5d-4e6f-8a9b-0c1d2e3f4a5b","total_cost_usd":0.099041}
